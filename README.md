@@ -8,11 +8,11 @@ python3 -m venv env_name
 
 source env_name/bin/activate
 
-# Install package dependencies in the virtual environment:
+### Install package dependencies in the virtual environment:
 
 pip install -r requirements.txt
 
-# Running Script
+### Running Script
 Execute the script from project root directory:
 
 python kafka_stream.py
