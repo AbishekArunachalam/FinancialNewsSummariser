@@ -1,0 +1,14 @@
+stocks:
+    tech: 
+      - AAPL
+      - GOOGL
+      - AMZN
+      - MSFT
+      - META
+      - ABNB
+    pharma:
+      - JNJ
+      - PFE
+    finance:
+      - JPM
+      - AXP

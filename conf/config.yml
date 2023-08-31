@@ -1,0 +1,15 @@
+auth:
+    api_key: 
+
+producer:
+    bootstrap.servers: localhost:9093
+    queue.buffering.max.ms: 500
+    batch.num.messages: 50
+    default.topic.config: {'acks': 'all'}
+  
+consumer:
+    bootstrap.servers: localhost:9093
+    group.id: default
+    enable.auto.commit: False
+    session.timeout.ms: 6000
+    auto.offset.reset: earliest
