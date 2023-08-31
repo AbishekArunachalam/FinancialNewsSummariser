@@ -76,7 +76,8 @@ class KakfaStream():
 
     def msg_process(self, msg) -> None:
         """
-        Convert message in byte to UTF-8 and print
+        Convert message in bytes to UTF-8 
+
         Args:
         msg: message from Kakfa producer as bytecode
         """
@@ -114,6 +115,8 @@ class KakfaStream():
 
     def kafka_consume_news(self, valid_domains: list) -> None:
         """
+        Kafka consumer to receive the news feed
+
         Args:
         valid_domains: list of domains with data
         """
@@ -141,6 +144,7 @@ class KafkaUtils():
 
     def delete_topic(self, topic_list) -> None:
         """
+        Delete a topic from the Kafka broker
         Args:
         topic_list: list of topics to delete
         """
@@ -148,6 +152,9 @@ class KafkaUtils():
         print(f"The topics {topic_list} have been deleted from the broker")
     
     def acked(err, msg):
+        """
+        
+        """
         if err is not None:
             print("Failed to deliver message: %s: %s" % (str(msg), str(err)))
         else:

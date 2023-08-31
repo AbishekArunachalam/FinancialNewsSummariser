@@ -1,5 +1,5 @@
 auth:
-    api_key: 
+    api_key: cjn7vqpr01qs1r1kdmcgcjn7vqpr01qs1r1kdmd0
 
 producer:
     bootstrap.servers: localhost:9093
