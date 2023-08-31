@@ -16,3 +16,7 @@ pip install -r requirements.txt
 Execute the script from project root directory:
 
 python kafka_stream.py
+
+## High level architecture
+
+![architecture](https://ibb.co/nnbPF6L)
