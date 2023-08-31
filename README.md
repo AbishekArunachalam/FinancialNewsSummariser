@@ -19,4 +19,5 @@ python kafka_stream.py
 
 ## High level architecture
 
-![architecture](https://ibb.co/nnbPF6L)
+
+![architecture](http://ibb.co/nnbPF6L)
